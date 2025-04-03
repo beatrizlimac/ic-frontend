@@ -1,35 +1,8 @@
-# ic-frontend
+## Repositório
 
-This template should help get you started developing with Vue 3 in Vite.
+__ic-frontend:__  
+- __Descrição:__
+Contém a aplicação web construída com Vue.js (usando Vite) que consome a API do backend. A interface permite ao usuário inserir um termo de busca e visualizar os registros mais relevantes dos cadastros de operadoras.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+- __Containerização:__
+Possui um Dockerfile próprio para a construção da imagem Docker do frontend.
